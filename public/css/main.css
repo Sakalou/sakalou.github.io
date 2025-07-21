@@ -16,7 +16,7 @@ main {
     margin: 0 auto;
 }
 
-main img {
+article img {
     max-width: 100%;
     max-height: 750px;
     object-fit: contain;
@@ -24,36 +24,49 @@ main img {
     margin: 0 auto;
 }
 
-main figure, main p, main iframe, main ul {
+article figure,
+article p,
+article iframe,
+article ul {
     margin: 1.5rem 0;
 }
 
-main p {
+article p {
     max-width: 800px;
     padding: 0 1rem;
     margin-inline: auto;
 }
 
-main ul {
+article ul {
     max-width: 800px;
     margin-inline: auto;
     padding: 0 1rem 0 2.5rem;
 }
 
-main ul li {
+article ul li {
     margin: 0.25rem 0;
 }
 
-main iframe {
+article iframe {
     display: block;
     margin-inline: auto;
 }
 
-main h1 {
+article h1 {
     font-weight: 500;
     font-size: 2rem;
     line-height: 1.25;
     max-width: 800px;
     padding: 0 1rem;
     margin-inline: auto;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 0 1em;
+    margin: 1.5em auto 0;
+    gap: 1em;
+    flex-wrap: wrap;
 }
