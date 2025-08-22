@@ -61,6 +61,16 @@ article h1 {
     margin-inline: auto;
 }
 
+article h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    max-width: 800px;
+    padding: 0 1rem;
+    margin-inline: auto;
+    margin-top: 1rem;
+}
+
 .bottom-nav {
     display: flex;
     justify-content: space-between;
